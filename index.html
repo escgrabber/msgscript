@@ -5,28 +5,87 @@
 </head>
 <body>
 
-<h1>Hello world</h1>
+    <h1>Tanga y corpino</h1>
+    <h1>acostada boja abajo</h1>
+    <h1>almohadon altura pelvis</h1>
+    <h1>antifaz</h1>
+    <br />
+    <br />
+    <h1>Cambio de Remera</h1>
+    <h1>Masajes pies</h1>
+    <h1>Sube a piernas</h1>
+    <h1>Muslos justo antes de la cola                                                </h1>
+    <h1>Salta a espalda alta, desabrocha corpiño                                     </h1>
+    <h1>Baja a cintura y caderas                                                     </h1>
+    <h1>Cola                                                                         </h1>
+    <h1>abrir piernas                                                                </h1>
+    <h1>Teasear almeja sin engage directo                                            </h1>
+    <h1>aceitar superficie colchon                                                   </h1>
+    <br />
+    <br />
+    <h1>"ahora te vas a dar vuelta boca arriba"                                      </h1>
+    <h1>acomodo almohadon                                                            </h1>
+    <h1>retiro suavemente corpiño                                                    </h1>
+    <h1>piernas bajas                                                                </h1>
+    <h1>muslos                                                                       </h1>
+    <h1>zona pelvica sin engage directo                                              </h1>
+    <h1>panza                                                                        </h1>
+    <h1>me acerco por un costado                                                     </h1>
+    <h1>tetas engage                                                                 </h1>
+    <h1>mantengo una mano en tetas y voy bajando suave                               </h1>
+    <h1>corro tanga                                                                  </h1>
+    <h1>almeja engage                                                                </h1>
+    <h1>"ahora te vas a tocar"                                                       </h1>
+    <h1>me acerco por arriba de su cabeza                                            </h1>
+    <h1>besos mientras se toca                                                       </h1>
+    <h1>un poco mas de engage de tetas mientras la beso                              </h1>
+    <h1>acerco pija a la boca suavemente                                             </h1>
+    <h1>"probala, saboreala"                                                         </h1>
+    <h1>sigue engage en tetas mientras la chupa                                      </h1>
+    <h1>EN NINGUN MOMENTO SE TIENE QUE DEJAR DE TOCAR                                </h1>
+    <br />
+    <br />
+    <h1>"ahora me toca a mi"                                                         </h1>
+    <h1>me acomodo nuevamente del lado de los pies                                   </h1>
+    <h1>tanga afuera  "esto se tiene que ir"                                         </h1>
+    <h1>me recuesto en el piso boca abajo, toallon altura pija para no ensuciarme    </h1>
+    <h1>engage chupada de almeja                                                     </h1>
+    <h1>fingering suave                                                              </h1>
+    <br />
+    <br />
+    <h1>enfundo                                                                      </h1>
+    <h1>lubricante                                                                   </h1>
+    <h1>la traigo al borde del colchon                                               </h1>
+    <h1>empieza garche pose 1 piernas abiertas                                       </h1>
+    <h1>piernas al pecho                                                             </h1>
+    <h1>bajar las 2 piernas hacia un costado                                         </h1>
+    <h1>garche de costado                                                            </h1>
+    <h1>"date vuelta boca abajo" colchon altura pelvis, caderas                      </h1>
+    <h1>pose F18 piernas flexionadas                                                 </h1>
+    <h1>cerrar piernas                                                               </h1>
+    <h1>pose elefante                                                                </h1>
+    <h1>freestyle con opcion: colchon sobre la cama                                  </h1>
 
-<script>
-let wakeLock;
+    <script>
+        let wakeLock;
 
-async function enableWakeLock() {
-    try {
-        wakeLock = await navigator.wakeLock.request('screen');
-        wakeLock.addEventListener('release', () => {
-            wakeLock = null;
+        async function enableWakeLock() {
+            try {
+                wakeLock = await navigator.wakeLock.request('screen');
+                wakeLock.addEventListener('release', () => {
+                    wakeLock = null;
+                });
+            } catch { }
+        }
+
+        document.addEventListener('visibilitychange', () => {
+            if (document.visibilityState === 'visible' && !wakeLock) {
+                enableWakeLock();
+            }
         });
-    } catch {}
-}
 
-document.addEventListener('visibilitychange', () => {
-    if (document.visibilityState === 'visible' && !wakeLock) {
         enableWakeLock();
-    }
-});
-
-enableWakeLock();
-</script>
+    </script>
 
 </body>
 </html>
